@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> 0.form-medical-information </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <h1> Emergency Contact and Medical Information </h1>
+
+        <fieldset>
+
+            	<label class="a-la-ligne"> <strong> Name </strong> </label>	
+                <div class="a-cote">
+                    <input type="text" name="first" id="first">
+                    <label for="first" class="a-la-ligne"> First </label>
+                </div>
+                <div class="a-cote">
+                    <input type="text" name="last" id="last">
+                    <label for="last" class="a-la-ligne"> Last </label>
+                </div>
+
+                <div class="espace-haut">
+                <div class="a-cote">
+                    <label class="a-la-ligne"> <strong> Gender </strong> </label>
+                        <select class="a-cote">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                </div>
+                <div class="a-cote">
+                    <label class="a-la-ligne"> <strong> Date of Birth</strong></label>
+                    <input type="date" name="date" id="date">
+                </div>
+                </div>
+
+        </fieldset>
+
+        <fieldset>
+        <h3> Emergency Contact</h3>
+
+        	<div>
+
+            <div class="a-cote">
+            	<label class="a-la-ligne"> <strong> Name </strong> </label>
+                <input type="text" name="first" id="first">
+                <label for="first" class="a-la-ligne"> First </label>
+            </div>
+            <div class="a-cote">
+                <input type="text" name="last" id="last">
+                <label for="last" class="a-la-ligne"> Last </label>
+            </div>
+
+            <div class="a-cote espace-cote alignement-vertical">
+				<label class="a-la-ligne" for="relationship"> <strong> Relationship </strong> </label>
+                <input type="text" name="relationship" id="relationship">
+            </div>
+
+			</div>
+
+			<!--div de l'adresse-->
+            <div>
+                
+                <label class="a-la-ligne"> <strong> Address </strong> </label>
+                <input type="text" name="street-adress" id="street-adress" class="toute-la-ligne">
+                <label for="street-address" class="a-la-ligne"> Street Address </label>
+                <input type="text" name="address-line2" id="address-line2" class="toute-la-ligne">
+                <label for="address-line2" class="a-la-ligne"> Address line 2</label>
+
+                <div class="a-cote moitie-de-la-ligne">
+                    <input type="text" name="city" id="city" class="toute-la-ligne">
+                    <label for="city" class="a-la-ligne"> City </label>
+                </div>
+                <div class="a-cote moitie-de-la-ligne">
+                    <input type="text" name="region" id="region" class="toute-la-ligne">
+                    <label for="region" class="a-la-ligne"> State/Province/Region </label>
+                </div>
+                <div class="a-cote moitie-de-la-ligne">
+                    <input type="text" name="postal" id="postal" class="toute-la-ligne">
+                    <label for="postal" class="a-la-ligne"> Postal/Zip code </label>
+                </div>
+                <div class="a-cote moitie-de-la-ligne">
+                    <select class="toute-la-ligne">
+                      <option value="be">Belgique</option>
+                      <option value="ne">Pays-Bas</option>
+                      <option value="lux">Luxembourg</option>
+                    </select>
+                    <label for="country" class="a-la-ligne"> Country </label>
+                </div>
+            </div>
+            <div class="a-cote moitie-de-la-ligne">
+                <label class="a-la-ligne"> <strong> Home Phone </strong> </label>
+                <div class="a-cote">
+                    <input type="tel" name="phone" id="phone" class="a-cote petit-input"> -
+                    <label for="phone" class="a-la-ligne"> ## </label>
+                </div>
+                <div class="a-cote">
+                    <input type="tel" name="last" id="last" class=" a-cote alignement-vertical petit-input"> -
+                    <label for="last" class="a-la-ligne"> ## </label>
+                </div>
+                <div class="a-cote">
+                    <input type="tel" name="last" id="last" class="petit-input-plus">
+                    <label for="last" class="a-la-ligne"> ### </label>
+                </div>
+                
+            </div>
+            <div class=" a-cote moitie-de-la-ligne">
+                <label class="a-la-ligne"> <strong> Work Phone </strong> </label>
+                <div class="a-cote">
+                    <input type="tel" name="phone" id="phone" class="a-cote petit-input"> -
+                    <label for="phone" class="a-la-ligne"> ## </label>
+                </div>
+                <div class="a-cote">
+                    <input type="tel" name="last" id="last" class=" a-cote alignement-vertical petit-input"> -
+                    <label for="last" class="a-la-ligne"> ## </label>
+                </div>
+                <div class="a-cote">
+                    <input type="tel" name="last" id="last" class="petit-input-plus">
+                    <label for="last" class="a-la-ligne"> ### </label>
+                </div>
+                
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+        <h3> Medical Information</h3>
+            <div>
+                 <label class="a-la-ligne"> <strong> Hospital/ Clinic Preference </strong> </label>
+                <input type="text" name="street-adress" id="street-adress" class="toute-la-ligne">
+            </div>
+            <div class="a-cote moitie-de-la-ligne">
+                <label for="city" class="a-la-ligne"> <strong> Insurance Company </strong> </label>
+                <input type="text" name="city" id="city" class="toute-la-ligne">
+            </div>
+            <div class="a-cote moitie-de-la-ligne">
+                <label for="region" class="a-la-ligne"> <strong>Policy Number </strong> </label>
+                <input type="text" name="region" id="region" class="toute-la-ligne">
+            </div>
+            <div>
+                <div class="a-cote moitie-de-la-ligne">
+                    <label for="region" class="a-la-ligne alignement-vertical"> <strong>Physician's Name </strong> </label>
+                    <input type="text" name="region" id="region" class="toute-la-ligne">
+                </div>
+                <div class=" a-cote moitie-de-la-ligne">
+                    <label class="a-la-ligne"> <strong> Phone Number </strong> </label>
+                    <div class="a-cote">
+                        <input type="tel" name="phone" id="phone" class="a-cote petit-input"> -
+                        <label for="phone" class="a-la-ligne"> ## </label>
+                    </div>
+                    <div class="a-cote">
+                        <input type="tel" name="last" id="last" class=" a-cote alignement-vertical petit-input"> -
+                        <label for="last" class="a-la-ligne"> ## </label>
+                    </div>
+                    <div class="a-cote">
+                        <input type="tel" name="last" id="last" class="petit-input-plus">
+                        <label for="last" class="a-la-ligne"> ### </label>
+                    </div>
+                </div>
+            </div>    
+            <div>
+                <label> <strong> Allergies / Special Health Consideration </strong> </label>
+                <textarea class="a-la-ligne"> </textarea>
+            </div>
+                    
+        </fieldset>
+    </form>
+</body>
+
+</html>

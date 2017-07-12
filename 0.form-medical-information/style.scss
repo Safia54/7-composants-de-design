@@ -1,0 +1,47 @@
+//le outline est activé lors de la création pour voir la frontière des div etc
+// body, form, div, label{
+// 	outline: 1px dashed black;
+// }
+
+body{
+	width:800px;
+	margin:200px;
+}
+.a-cote {
+	display: inline-block;
+}
+
+.a-la-ligne {
+	display: block;
+}
+
+.toute-la-ligne{	
+	width:100%;
+}
+.moitie-de-la-ligne{
+	width:49.7%;
+}
+.espace-cote {
+	margin-left: 240px;
+}
+
+.espace-haut{
+	margin-top: 30px;
+}
+
+.alignement-vertical{
+	vertical-align: top;
+}
+
+.petit-input{
+	width:30px;
+}
+
+.petit-input-plus {
+	width:50px;
+}
+
+textarea {
+	width:100%;
+	height:200px;
+}
