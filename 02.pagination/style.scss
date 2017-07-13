@@ -1,0 +1,30 @@
+//le outline est activé lors de la création pour voir la frontière des div etc
+body, div{
+	outline: 1px dashed black;
+	display:flex;
+	justify-content:center;
+}
+.bandeau{
+	width:100%;
+	height:50px;
+	
+}
+
+button{
+	color: white;
+	background-color:black;
+	width: 100px;
+	height: 50px;
+	font-weight: bold;
+	border-radius: 8px;
+	margin:5px;
+}
+
+
+.bleu{
+	background-color:blue;
+
+}.blanc{
+	color:black;
+	background-color:white;
+}
