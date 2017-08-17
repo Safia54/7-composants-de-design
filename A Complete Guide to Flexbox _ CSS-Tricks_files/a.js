@@ -1,0 +1,10 @@
+(function(){
+  document.write('<div id="adsatlas-4185861783" style="position:relative;width:300px;height:250px;overflow:hidden">');
+  document.write('<a href="https://ad.atdmt.com/c/go;p=11237205196382;as=0;a=11237205705508;crs=11237205705484;cr=11237205705486;i.ts=1502411727" target="_blank"><img border="0" src="https://cdn.atlassbx.com/FB/11237205705486/Summer_Digital_Display_2017_Standard_300x250_Static.jpg"/></a><img src="https://ad.atdmt.com/i/img;p=11237205196382;as=0;a=11237205705508;crs=11237205705484;cr=11237205705486;llid=8236131015537190222;cache=308694748" />');
+  document.write('</div>');
+  document.write('<script src="https://cdn.atlassbx.com/FB/11122200772940/browser_features1488235112.js"></script><script type="text/javascript">(function(window){var data = window.getAtlasBrowserFeatures.getAllBrowserFeatures();new Image().src = "https://sig.atdmt.com/bf?iid=8236131015537190222&r=https%3A%2F%2Fcdn.adfront.org%2F1306801%2Fraw_61186d71a33e357589c1d3e1c46fb51b.html&bf=" + encodeURIComponent(data);})(window.inDapIF ? parent.window : window);</script>');
+  document.write('<script type="text/javascript" src="https://cdn.atlassbx.com/FB/11122200773193/atlas_tots1502229796.js"></script><script type="text/javascript">(function(window){window.initAtlasTOTS("adsatlas-4185861783","8236131015537190222","11237205196382","11237205705486","https://cdn.atlassbx.com/FB/11122200773193/atlas_tots1502229796.js");})(window);</script>');
+  document.write('');
+  document.write('<img src=\"https://ad.doubleclick.net/ddm/trackimp/N718679.915337ATLAS/B20195222.203182906;dc_trk_aid=402990484;dc_trk_cid=91707782;atlas_campaign_id=2017%20-%20Direct%20Display;atlas_publisher_id=Buy%20Sell%20Ads;ord=2412997372;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=0\" />');
+  document.close();
+})();

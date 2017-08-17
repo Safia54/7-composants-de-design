@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+  color: grey;
+  margin-left: 960px; }
+
+h2 {
+  display: inline-block; }
+
+.tout {
+  margin-right: 400px; }
+
+div {
+  display: inline-block; }
+
+img {
+  display: inline-block; }
+
+.ecrit {
+  vertical-align: top;
+  margin-top: 10px; }
+
+h6 {
+  margin: auto; }
+
+.date {
+  color: grey; }
+
+/*# sourceMappingURL=style.css.map */

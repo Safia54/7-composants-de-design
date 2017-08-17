@@ -1,0 +1,48 @@
+// le outline est activé lors de la création pour voir la frontière des div etc
+// body, a, div, img, h6, .ecrit{
+// 	outline: 1px dashed black;
+// }
+
+a {
+	text-decoration: none;
+	color: grey;
+	margin-left: 960px;
+
+}
+
+h2 {
+	display: inline-block;
+}
+
+.tout {
+	margin-right:400px;
+
+}
+
+div {
+	display:inline-block;
+}
+
+img {
+	display: inline-block;
+}
+
+.ecrit {
+	
+	vertical-align: top;
+	margin-top:10px;
+
+}
+
+h6{
+	margin : auto;
+}
+
+.auteur {
+	
+}
+
+.date {
+	color: grey;
+}
+

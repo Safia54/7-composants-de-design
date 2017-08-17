@@ -1,0 +1,20 @@
+/*Le outline est enlevé une fois que tout est vérifié */
+/*body, a, div, img {
+	outline: 1px dashed black;
+}*/
+
+body {
+	display: flex;
+	align-items: center;
+}
+
+button {
+	background-color: #0f93fb;
+	color: white;
+	height: 40px;
+}
+
+div{
+	width: 500px;
+	margin-right: 50px;
+} 

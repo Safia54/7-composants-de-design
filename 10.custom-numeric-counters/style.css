@@ -1,0 +1,56 @@
+/*div, h4, .texte, .chiffre, div {
+	
+    outline: 1px solid #000;
+}*/
+
+body {
+	display: flex;
+
+}
+
+h4 {
+	color: blue;
+}
+
+
+
+.zero, .un {
+	width: 630px;
+}
+
+
+.chiffre {
+	color: lightgrey;
+	font-size: 100px;
+	width: 50px;
+	display: inline;
+}
+
+.texte, h4 {
+	width: 500px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.texte {
+	margin-left: 110px;
+	margin-top: -60px;
+}
+
+.boutton {
+	width: 100px;
+
+	
+}
+
+.truc1{
+	background-color: yellow;
+	margin-bottom: 10px;
+	width: 100px
+}
+
+.truc2{
+	color: blue;
+	width: 100px
+
+}

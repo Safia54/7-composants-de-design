@@ -1,0 +1,22 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user\/GitHub\/Becode\/7-composants-de-design\%20SAFIA\/06\.zone-hero\/style\.scss}line{font-family:\000031}}
+body {
+  background-image: url("gosse.png");
+  background-repeat: no-repeat;
+  background-position: top right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user\/GitHub\/Becode\/7-composants-de-design\%20SAFIA\/06\.zone-hero\/style\.scss}line{font-family:\000037}}
+button {
+  background-color: #e2b039;
+  height: 70px;
+  width: 200px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user\/GitHub\/Becode\/7-composants-de-design\%20SAFIA\/06\.zone-hero\/style\.scss}line{font-family:\0000314}}
+h2 {
+  font-size: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/user\/GitHub\/Becode\/7-composants-de-design\%20SAFIA\/06\.zone-hero\/style\.scss}line{font-family:\0000318}}
+p {
+  height: 100px;
+  width: 300px; }
+
+/*# sourceMappingURL=style.css.map */
