@@ -1,0 +1,28 @@
+body {
+  background-color: #f2f2f2; }
+
+table, table > p {
+  background-color: white; }
+
+thead {
+  color: grey; }
+
+tr {
+  border: 1px; }
+
+.bleu1 {
+  background-color: #3371d3; }
+
+.bleu2 {
+  background-color: #468df1; }
+
+.bleu3 {
+  background-color: #75a8f4; }
+
+.bleu4 {
+  background-color: #a3c4f7; }
+
+.bleu5 {
+  background-color: #d0e1fb; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+ body {
+ 	background-color: #f2f2f2;
+ }
+ 
+ table, table>p{
+	background-color: white;
+ }
+
+ thead {
+	color:grey;
+}
+
+tr {
+	border: 1px;
+}
+
+$bleu1: #3371d3;
+$bleu2: #468df1;
+$bleu3: #75a8f4;
+$bleu4: #a3c4f7;
+$bleu5: #d0e1fb;
+
+.bleu1{
+	background-color: $bleu1;
+}
+
+.bleu2{
+	background-color: $bleu2;
+}
+
+.bleu3{
+	background-color: $bleu3;
+}
+.bleu4{
+	background-color: $bleu4;
+}
+.bleu5{
+	background-color: $bleu5;
+}
